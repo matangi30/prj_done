@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet");
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+:root{
+    --primary-color: #fca5a5 ;
+}
+.container-one{
+    padding: 1rem 0.5rem;
+}
+.container{
+    padding: 1rem 1rem;
+}
+hr{
+    margin: 2rem 0rem;
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+    display: block;
+    max-width: 140px;
+    margin: 0rem 1rem;
+}
+.link-secondary {
+    background-color: #fca5a5;
+    color: black;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 0rem 1rem;
+}
+.list{
+    list-style: none;
+    padding-inline-start: 0rem;
+}
+.list-item{
+    list-style: circle;
+    display: inline;
+    padding: 0rem 1rem;
+}
+.navigation {
+    background-color: var(--primary-color);
+    list-style: none;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: center;
+}
+
+.navigation .link {
+    color: white;
+}
